@@ -3,7 +3,7 @@ agent any
 stages{
 stage('Git Clone'){
 steps{
-  https://github.com/anky261189/maven-project.git
+  git branch: 'main', url: 'https://github.com/anky261189/maven-project.git'
 }
 
 }
